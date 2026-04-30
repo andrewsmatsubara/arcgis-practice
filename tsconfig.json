@@ -1,0 +1,13 @@
+{
+  "include": ["src", "main.ts", "vite-env.d.ts"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2024"],
+    "module": "ES2020",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "target": "ES2022",
+    "skipLibCheck": true,
+    "strict": true
+  }
+}
