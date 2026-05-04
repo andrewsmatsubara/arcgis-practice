@@ -8,10 +8,13 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="calcite-mode-dark">
       <arcgis-map item-id="02b37471d5d84cacbebcccd785460e94">
+        <div slot="top-right">
+          <calcite-button>Custom Tool</calcite-button>
+        </div>
         <arcgis-zoom slot="top-left"></arcgis-zoom>
-        <arcgis-basemap-toggle slot="bottom-right"></arcgis-basemap-toggle>
+        <arcgis-basemap-toggle class="bottom-right"></arcgis-basemap-toggle>
       </arcgis-map>
       <arcgis-arcade-editor
         script="'Hello'"
